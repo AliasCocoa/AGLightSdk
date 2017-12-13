@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AGLightSdk_Example' do
+  pod 'AGLightSdk', :path => '../'
+
+  target 'AGLightSdk_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
