@@ -20,7 +20,6 @@
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
-		6D175920F6A4DE9D830E06C66555F98E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7597FFDEDCDE8B4B8CF8E5AF78160ABC /* ReplaceMe.m */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
 		7FB7E04C21F74D850A35442AC57B17DA /* Pods-AGLightSdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6BF3F9A58FBBBE9BCBE3896238DED0E /* Pods-AGLightSdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,7 +64,7 @@
 		0FC34023890835293D6E7B807158E96A /* Pods-AGLightSdk_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGLightSdk_Example-resources.sh"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		15C30251F12CCBB1CC990FFFFCEDFF02 /* Pods-AGLightSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGLightSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		27CABA0E5A7345AB5CB99F971E2BA97B /* Pods_AGLightSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AGLightSdk_Example.framework; path = "Pods-AGLightSdk_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27CABA0E5A7345AB5CB99F971E2BA97B /* Pods_AGLightSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGLightSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2D9DEB52C2C6CF40641D104829B9D6 /* Pods-AGLightSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGLightSdk_Example-dummy.m"; sourceTree = "<group>"; };
 		2CE0FB474C042E871E7B3FE4C4D870A0 /* Pods-AGLightSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGLightSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
@@ -74,7 +73,7 @@
 		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		3EA8B62A897CC9281F19A364B9473039 /* AGLightSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AGLightSdk.framework; path = AGLightSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EA8B62A897CC9281F19A364B9473039 /* AGLightSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGLightSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EF4235539201733E9F05D094C904318 /* Pods-AGLightSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGLightSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		52C18C0EB1FED5EB5CE3B0E768AC510F /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
@@ -85,17 +84,16 @@
 		6E75065CF3ABC677C07A1A229DDB956F /* Pods-AGLightSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGLightSdk_Tests-dummy.m"; sourceTree = "<group>"; };
 		7174C1E324CF5A42D1B12B5CB3FCA526 /* Pods-AGLightSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGLightSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73D037B3C804B9E1BB70538E342E5104 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		7597FFDEDCDE8B4B8CF8E5AF78160ABC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AGLightSdk/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		777FB5AD52736C67D03FAD9BD1EE1B63 /* AGLightSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGLightSdk-umbrella.h"; sourceTree = "<group>"; };
-		78370AC66277BCA15DC0B8B9BCAC19B5 /* Pods-AGLightSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AGLightSdk_Example.modulemap"; sourceTree = "<group>"; };
-		7CD4727F090FA0F9DE2BA5B641B77D14 /* AGLightSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AGLightSdk.modulemap; sourceTree = "<group>"; };
+		78370AC66277BCA15DC0B8B9BCAC19B5 /* Pods-AGLightSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGLightSdk_Example.modulemap"; sourceTree = "<group>"; };
+		7CD4727F090FA0F9DE2BA5B641B77D14 /* AGLightSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AGLightSdk.modulemap; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		7FC0C179907764584782F7EEAEB398BB /* Pods-AGLightSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AGLightSdk_Tests.modulemap"; sourceTree = "<group>"; };
-		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		7FC0C179907764584782F7EEAEB398BB /* Pods-AGLightSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGLightSdk_Tests.modulemap"; sourceTree = "<group>"; };
+		823558E8AC8EB39D028DB5FBBEA227A3 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		854722979769BC613E0BC4D0251752B3 /* Pods-AGLightSdk_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGLightSdk_Tests-resources.sh"; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F3C43CF4B6616079CAAF5B969F1E1C6 /* Pods_AGLightSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AGLightSdk_Tests.framework; path = "Pods-AGLightSdk_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F3C43CF4B6616079CAAF5B969F1E1C6 /* Pods_AGLightSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGLightSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		A785900856DE34BD908B01FDF32B4145 /* Pods-AGLightSdk_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGLightSdk_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -111,10 +109,11 @@
 		DB3150492299E6095F826B1DA1A3693B /* Pods-AGLightSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGLightSdk_Example-umbrella.h"; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		E6CC12232AA65BEC2461CBB782F49D6A /* Pods-AGLightSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGLightSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F52F0ACD1FE13B7900B983E5 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Classes; path = AGLightSdk/Classes; sourceTree = "<group>"; };
 		F61DBD888F5D02B74F5E42E3C0A99977 /* Pods-AGLightSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGLightSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F9C1691DAFAF372E7AAA436189826E67 /* AGLightSdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGLightSdk.xcconfig; sourceTree = "<group>"; };
 		FB489279328C0E7E25CA02394786905F /* Pods-AGLightSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGLightSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FF98D53D3E1DE7F02B063841D5CA481D /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF98D53D3E1DE7F02B063841D5CA481D /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,7 +195,6 @@
 				1549F91FCD089822594C1F5DB8AB9E8F /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -292,7 +290,7 @@
 		CD24E7A5909CD9A24AF8EE8EA2E704E4 /* AGLightSdk */ = {
 			isa = PBXGroup;
 			children = (
-				7597FFDEDCDE8B4B8CF8E5AF78160ABC /* ReplaceMe.m */,
+				F52F0ACD1FE13B7900B983E5 /* Classes */,
 				7EA1240CD65F2D10AA83AE2D566E564E /* Support Files */,
 			);
 			name = AGLightSdk;
@@ -519,7 +517,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3678E5D9F3C06A7FAE54472069F25638 /* AGLightSdk-dummy.m in Sources */,
-				6D175920F6A4DE9D830E06C66555F98E /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
