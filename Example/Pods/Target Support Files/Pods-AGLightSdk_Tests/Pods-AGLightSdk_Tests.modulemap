@@ -1,0 +1,6 @@
+framework module Pods_AGLightSdk_Tests {
+  umbrella header "Pods-AGLightSdk_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

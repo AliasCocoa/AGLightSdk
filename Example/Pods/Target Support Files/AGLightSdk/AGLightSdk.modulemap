@@ -1,0 +1,6 @@
+framework module AGLightSdk {
+  umbrella header "AGLightSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
